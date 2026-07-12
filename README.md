@@ -49,16 +49,40 @@ ESG assurance is moving from voluntary reporting to regulated, audit-grade discl
 ![Green Building Benchmark](screenshots/Dashboard%203.jpg)
 
 ---
-## Audit Coverage
-Twelve scenarios across five domains, each anchored to a named standard:
+## The Twelve Audit Scenarios
 
-- **Data Integrity & Assurance** — device authorisation, invoice integrity, telemetry completeness
-- **Energy Performance & Scope 2** — sub-metering, after-hours waste, efficiency degradation, NABERSNZ compliance
-- **Indoor Environment Quality** — ventilation compliance, high-demand zone air quality
-- **Scope 3 & Value Chain** — billing variance, business travel emissions
-- **Waste & Circularity** — hazardous waste certification
+These scenarios focus on the built-environment dimension of ESG — energy, indoor environmental quality, and the Scope 2/3 emissions that flow from building operations. All twelve run across both jurisdictions; the engine applies the jurisdiction-appropriate standard automatically (e.g. NABERSNZ vs. NABERS). The architecture is domain-agnostic and extends to other ESG data domains.
 
-Full scenario detail, regulatory mapping, and detection logic: see [Scenario Library](docs/).
+**Data Integrity & Assurance**
+
+| Scenario | Business Risk | Regulatory Anchor |
+|---|---|---|
+| Unauthorised Device | Rogue sensors inject false data; corrupts the audit baseline | ISA/IEC 62443-2-1 · ISO/IEC 27402:2023 |
+| Invoice Integrity | Silent tampering renders disclosures legally unverifiable | ISO/IEC 27001:2022 · ISAE 3000 |
+| Telemetry Gap | Data voids invalidate benchmarking and carbon calculations | IPMVP EVO 10000-1:2022 · ISO 50001:2018 |
+
+**Energy Performance & Scope 2**
+
+| Scenario | Business Risk | Regulatory Anchor |
+|---|---|---|
+| Sub-Meter Drift | Metering gaps distort energy accounting and carbon reporting | LEED v4.1 · ASHRAE 211-2018 |
+| After-Hours HVAC | Idle systems inflate carbon footprint invisibly | ASHRAE Guideline 14-2023 |
+| Equipment Degradation | Gradual inefficiency undetected by point-in-time audits | ISO 50001:2018 · ISO 50002-2:2025 |
+| NABERSNZ Compliance | Energy overrun triggers mandatory re-rating; certification at risk | NABERSNZ Rules v1.2 · AS/NZS 3598.1:2014 |
+
+**Indoor Environment Quality (Social)**
+
+| Scenario | Business Risk | Regulatory Anchor |
+|---|---|---|
+| IEQ Greenwashing | CO₂ breaches contradict green certification claims | NZS 4303:1990 (MBIE) · LEED v5 O+M |
+| High-Demand IEQ | Poor air quality undermines the productivity ROI of premium space | WELL v2 · Allen et al. 2019 (Harvard) |
+
+**Scope 3 & Value Chain**
+
+| Scenario | Business Risk | Regulatory Anchor |
+|---|---|---|
+| Invoice vs. Benchmark | Billed consumption deviates from expected intensity | NABERS FY2020 · IPMVP Option C · ISAE 3000 |
+| Scope 3 Travel | Short-haul business class inflates Scope 3 emissions | GHG Protocol Scope 3 Cat.6
 
 > **Note on IP:** This repository demonstrates the pipeline's architecture, standards alignment, and detection logic. Specific thresholds, coefficients, and scoring formulas have been generalised; full methodology is available for discussion in a technical or interview setting.
 
