@@ -45,7 +45,7 @@ ESG assurance is moving from voluntary reporting to regulated, audit-grade discl
 ### IEQ Intelligence - Indoor Air Quality
 ![IEQ Indoor Air Quality](screenshots/Dashboard%202.jpg)
 
-### Energy Performance - Greenbuilding Benchmark
+### Energy Performance - Green Building Benchmark
 ![Green Building Benchmark](screenshots/Dashboard%203.jpg)
 
 ---
