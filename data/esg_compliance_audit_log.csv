@@ -1,0 +1,5 @@
+ref_id,asset_id,scenario,status,detail,financial_exposure,carbon_kg,billing_month,route,booked_class,flight_hours,ticket_price_aud,employee_id,waste_type,disposal_date,quantity_kg
+Asset_11_AU_Sydney,Asset_11_AU_Sydney,S02,L1_HASH_MISMATCH,PDF hash [TAMPERED_HASH_999] does not match original signature [VALID_SIGNATURE_888] — tampered or corrupted invoice,0.0,0.0,2025-11-01,,,,,,,,
+Asset_11_AU_Sydney,Asset_11_AU_Sydney,S09,SUSPENDED_PENDING_S02,S09 analysis suspended — upstream S02 hash breach unresolved. Billing data cannot be relied upon until invoice integrity is confirmed.,0.0,0.0,2025-11-01,,,,,,,,
+3,EMP_002,S11,L3_TRAVEL_CLASS_AUDIT,Business class on short-haul route SYD-AKL (3.0 hrs) — exceeds 6-hour short-haul threshold,2800.0,0.0,,SYD-AKL,Business,3.0,2800.0,EMP_002,,,
+WM_2025_001,Asset_01_NZ_Boundary,S12,L3_WASTE_CERT_MISSING,E-Waste disposal record has no certificate URL — compliance with HSNO Act 1996 and Basel Convention cannot be verified,0.0,0.0,,,,,,,E-Waste,11/20/2025,45.0

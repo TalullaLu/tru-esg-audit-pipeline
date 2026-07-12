@@ -1,0 +1,7 @@
+metric,prior_value,label
+total_violations,7,Data & Compliance Violations
+avoidable_cost_nz,3659.94,Avoidable Energy Cost (NZ)
+avoidable_cost_au,0,Avoidable Energy Cost (AU)
+avoidable_carbon_nz,1610.2,Avoidable Carbon Emissions (NZ)
+avoidable_carbon_au,0,Avoidable Carbon Emissions (AU)
+s08_productivity_loss,31200.00,HIGH-DEMAND Zone Staff Productivity Loss

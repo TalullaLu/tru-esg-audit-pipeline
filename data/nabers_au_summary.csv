@@ -1,0 +1,2 @@
+asset_id,area_sqm,inferred_kwh_month,ytd_actual_mj_sqm,budget_mj_sqm,nabers_ratio,breach,suspended,suspension_reason
+Asset_11_AU_Sydney,1000.0,6134.3,265.0,165.0,1.606,True,True,S02_HASH_BREACH

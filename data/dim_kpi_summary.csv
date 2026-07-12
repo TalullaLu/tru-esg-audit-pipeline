@@ -1,0 +1,7 @@
+metric,value_nzd,value_aud,label,unit,note
+total_violations,5.0,0.0,Data & Compliance Violations,count,
+avoidable_cost_nz,3271.69,0.0,Avoidable Energy Cost (NZ),NZD,
+avoidable_cost_au,0.0,0.0,Avoidable Energy Cost (AU),AUD,Under Review — pending invoice verification
+avoidable_carbon_nz,1439.5,0.0,Avoidable Carbon Emissions (NZ),kgCO2e,
+avoidable_carbon_au,0.0,0.0,Avoidable Carbon Emissions (AU),kgCO2e,Under Review — pending invoice verification
+s08_productivity_loss,38942.25,0.0,HIGH-DEMAND Zone Staff Productivity Loss,NZD,Zero-cost remedy available

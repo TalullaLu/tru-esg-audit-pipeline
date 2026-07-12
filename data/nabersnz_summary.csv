@@ -1,0 +1,10 @@
+asset_id,nabersnz_ratio,ytd_actual_mj_sqm,budget_mj_sqm,breach
+Asset_01_NZ_Boundary,1.175,113.8,96.8,True
+Asset_02_NZ_Boundary,0.358,34.7,96.8,False
+Asset_04_NZ_Boundary,0.282,27.3,96.8,False
+Asset_05_NZ_Boundary,0.67,64.8,96.8,False
+Asset_06_NZ_Boundary,0.239,23.2,96.8,False
+Asset_07_NZ_Boundary,0.966,93.5,96.8,False
+Asset_08_NZ_Boundary,0.437,42.3,96.8,False
+Asset_09_NZ_Boundary,0.796,77.0,96.8,False
+Asset_10_NZ_Boundary,0.51,49.3,96.8,False

@@ -1,0 +1,4 @@
+ticket_id,employee_id,route,booked_class,ticket_price_aud,flight_hours
+1,EMP_001,SYD-AKL,Economy,450,3
+2,EMP_002,SYD-LHR,Business,8500,24
+3,EMP_002,SYD-AKL,Business,2800,3

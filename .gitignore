@@ -1,0 +1,29 @@
+# 1. 虚拟环境
+myenv/
+.venv/
+env/
+venv/
+
+# 2. 安全与密钥 (绝对不能传)
+.env
+*.pem
+*.key
+*.json
+credentials/
+.streamlit/secrets.toml
+
+# 3. Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 4. 系统与IDE文件
+.DS_Store
+Thumbs.db
+.vscode/
+
+Archive/
+
+# 注意: data/ 里的 mock CSV 需要上传, 部署才能跑
+# 如果以后有真实数据放 data/raw/, 再单独排除:
+# data/raw/

@@ -1,0 +1,13 @@
+scenario,scenario_name,department,audit_group,severity_level,engine,standard,ceo_visible
+S01,Unauthorised Device Detection,IT / Data,Group 1 — Data Integrity,L0,IoT & Facility,ISA/IEC 62443-2-1 · ISO/IEC 27402:2023,False
+S02,Invoice Hash Integrity,Finance / Legal,Group 1 — Data Integrity,L1,ESG Evidence,ISO/IEC 27001:2022 · ISAE 3000,True
+S03,Telemetry Data Gap,IT / Data,Group 1 — Data Integrity,L1,IoT & Facility,ISO 50001:2018 · IPMVP EVO 10000-1:2022,False
+S04,Sub-Meter Calibration Drift,Facilities,Group 2 — Energy,L2,Energy,LEED v4.1 Advanced Energy Metering,False
+S05,After-Hours HVAC Idle Running,Facilities,Group 2 — Energy,L2,Energy,ASHRAE Guideline 14-2023 · ISO 50001:2018,False
+S06,IEQ Greenwashing Detection,Facilities,Group 3 — IEQ,L1,IoT & Facility,NZS 4303:1990,True
+S07,Equipment Efficiency Degradation,Facilities,Group 2 — Energy,L2,Energy,ISO 50001:2018 · DOE/LBNL EMIS,True
+S08,High-Demand Zone IEQ Optimisation,Facilities,Group 3 — IEQ,L2,IoT & Facility,WELL Building Standard v2,True
+S09,Invoice vs. NABERS Benchmark,Finance / Legal,Group 4 — Evidence,L4,ESG Evidence,IPMVP Option C · ISAE 3000,True
+S10,NABERSNZ Benchmarking Compliance,Energy Compliance,Group 2 — Energy,L1,Energy,NABERSNZ Rules v1.2 · AS/NZS 3598.1:2014,True
+S11,Scope 3 Travel Class Audit,ESG / Compliance,Group 5 — Scope 3,L3,ESG Evidence,GHG Protocol Scope 3 Cat.6 · ISO 14083:2023,True
+S12,Hazardous Waste Disposal Compliance,ESG / Compliance,Group 5 — Scope 3,L3,ESG Evidence,HSNO Act 1996 · Basel Convention · GRI 306:2020,True

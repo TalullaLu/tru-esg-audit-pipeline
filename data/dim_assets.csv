@@ -1,0 +1,12 @@
+asset_id,region,location,area_sqm,occupant_count,space_designation,display_name,has_iot
+Asset_01_NZ_Boundary,NZ,Auckland_HQ,1200.0,45,STANDARD,Auckland HQ / L5,True
+Asset_02_NZ_Boundary,NZ,Auckland_HQ,2500.0,100,STANDARD,Auckland HQ / L6,True
+Asset_03_NZ_Boundary,NZ,Auckland_HQ,800.0,35,STANDARD,Auckland HQ / L7,True
+Asset_04_NZ_Boundary,NZ,Auckland_HQ,3200.0,145,STANDARD,10 Queen St / L3,True
+Asset_05_NZ_Boundary,NZ,Auckland_HQ,1500.0,65,STANDARD,10 Queen St / L4,True
+Asset_06_NZ_Boundary,NZ,Auckland_HQ,4000.0,95,STANDARD,Fanshawe St Campus,True
+Asset_07_NZ_Boundary,NZ,Auckland_HQ,950.0,40,STANDARD,45 Shortland St,True
+Asset_08_NZ_Boundary,NZ,Auckland_HQ,2100.0,75,STANDARD,Wynyard Quarter Office,True
+Asset_09_NZ_Boundary,NZ,Auckland_HQ,1100.0,40,HIGH_DEMAND,Commercial Bay Tower / L28,True
+Asset_10_NZ_Boundary,NZ,Auckland_HQ,1800.0,62,STANDARD,Viaduct Harbour Office,True
+Asset_11_AU_Sydney,AU,Sydney_Office,1000.0,55,STANDARD,Sydney Office / 88 Phillip St,False
