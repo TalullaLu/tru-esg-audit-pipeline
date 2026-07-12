@@ -798,6 +798,7 @@ with tab4:
     st.divider()
 
     # ── Scope 3: Travel (S11) ──────────────────────────────────────────────────
+# ── Scope 3: Travel (S11) ──────────────────────────────────────────────────
     st.markdown("#### Scope 3 — Business Travel Class Audit")
     st.caption("Business class bookings on routes under 6 hours, identified "
                "from e-ticket fare basis codes. Cabin class materially "
@@ -805,10 +806,12 @@ with tab4:
 
     s11 = fact[fact['scenario'] == 'S11'].copy()
     if not s11.empty:
-        s11_display = s11[['asset_id', 'financial_exposure',
+        s11['ticket_price_display'] = s11['financial_exposure'].apply(
+            lambda x: f"AUD {x:,.0f}")
+        s11_display = s11[['asset_id', 'ticket_price_display',
                            'detail']].rename(columns={
             'asset_id': 'Employee',
-            'financial_exposure': 'Ticket Price (AUD)',
+            'ticket_price_display': 'Ticket Price',
             'detail': 'Finding',
         })
         st.dataframe(s11_display, width='stretch', hide_index=True,
