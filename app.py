@@ -521,10 +521,15 @@ with tab3:
 
         budget_line = nab['budget_mj_sqm'].iloc[0]
 
+        # Sort in pandas (reliable), then preserve order in Altair
+        nab = nab.sort_values('ytd_actual_mj_sqm', ascending=True).reset_index(drop=True)
+        asset_order = nab['Asset'].tolist()
+
         bars = alt.Chart(nab).mark_bar(size=14).encode(
             y=alt.Y('Asset:N', title=None,
-                    sort=alt.EncodingSortField(field='ytd_actual_mj_sqm', order='ascending'),
+                    sort=asset_order,
                     axis=alt.Axis(labelLimit=250)),
+        
             x=alt.X('ytd_actual_mj_sqm:Q', title='YTD Energy Intensity (MJ/sqm)'),
             color=alt.Color('Status:N',
                 scale=alt.Scale(domain=['Within Budget', 'Above Budget'],
