@@ -8,7 +8,7 @@
 ![Standards](https://img.shields.io/badge/Aligned-NABERS%20%7C%20WELL%20%7C%20GHG%20Protocol%20%7C%20IPMVP-2E8B57)
 ![Status](https://img.shields.io/badge/Status-Audit--Ready%20MVP-success)
 
-🔗 **Live dashboard:** _[ URL to be added after deployment ]_
+🔗 **Live dashboard:** [tru-esg-audit-pipeline.streamlit.app](https://tru-esg-audit-pipeline.streamlit.app/)
 
 ---
 
